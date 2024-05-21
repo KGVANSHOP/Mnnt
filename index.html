@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mannat Telecom</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Mannat Telecom</h1>
+  </header>
+  <div class="container">
+    <h2>Upload Picture</h2>
+    <input type="file" id="imageInput" accept="image/*">
+    <button onclick="uploadPicture()">Upload</button>
+    <div id="imagePreview"></div>
+
+    <h2>Update Content</h2>
+    <textarea id="contentInput" rows="4" cols="50"></textarea>
+    <button onclick="updateContent()">Update</button>
+    <div id="contentDisplay"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
